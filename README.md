@@ -17,3 +17,23 @@ CustomToaster.makeText(this                           //context
                 , CustomToaster.BLACK                 //text color 
         ).show();
 ```
+## installation
+
+In your project’s build.gradle add the following line
+
+maven { url 'https://jitpack.io' }
+
+```
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+and in your app’s build.gradle add the dependency
+```
+implementation 'com.github.amirhossein-bigdeli:CustomToaster:0.1'
+```
+Enjoy :heart:
