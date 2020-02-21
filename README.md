@@ -34,6 +34,6 @@ allprojects {
 ```
 and in your app’s build.gradle add the dependency
 ```
-implementation 'com.github.amirhossein-bigdeli:CustomToaster:0.1'
+implementation 'com.github.special-n9ne:CustomToaster:0.1'
 ```
 Enjoy :heart:
